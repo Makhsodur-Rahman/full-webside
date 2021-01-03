@@ -1,0 +1,471 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+ul,
+ol,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    /*    font-family: 'Gentium Book Basic', serif;
+        font-family: 'Yeseva One', cursive;*/
+}
+
+/*navbar part start*/
+.nav_color {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.70));
+    height: 130px;
+    width: 100%;
+}
+
+.navbar-brand {
+    position: relative;
+}
+
+.navbar-brand span {
+    color: white;
+    position: absolute;
+    top: 30px;
+    right: -13px;
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    ont-family: 'Gentium Book Basic', serif;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.nav_icon ul li {
+    float: left;
+    padding: 0 15px;
+}
+
+.nav_icon ul li a {
+    color: #DAB33E;
+
+}
+
+/*navbar part end*/
+
+/*banner part start*/
+
+.banner {
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /*    height: 750px;*/
+
+}
+
+/*
+.banner_con {
+    margin-top: 120px;
+}
+*/
+.conh2 {
+    margin-top: 120px;
+}
+
+.banner_con h2 {
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+    font-size: 90px;
+    color: #F4F4F4;
+
+
+}
+
+.banner_icon {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.banner_button {
+    text-align: center;
+    margin-top: 40px;
+    /*    margin-bottom: 140px;*/
+
+}
+
+.banner_button .button1 {
+    height: 50px;
+    width: 230px;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    outline: 0;
+    border: 1px solid #DCD9C1;
+    margin-right: 7px;
+    margin-bottom: 140px;
+}
+
+.banner_button .button2 {
+    height: 50px;
+    width: 230px;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    outline: 0;
+    border: 1px solid #DCD9C1;
+    margin-left: 7px;
+    margin-bottom: 140px;
+}
+
+.button1:hover {
+    background-color: rgba(0, 0, 0, 0.70);
+    border: 1px solid black;
+}
+
+.button2:hover {
+    background-color: rgba(0, 0, 0, 0.70);
+    border: 1px solid black;
+}
+
+/*banner part start*/
+/* food-item paat start*/
+
+.food_item_main {
+    background-image: url(../img/food-item-pic2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0;
+}
+
+.food_item_con {
+    text-align: center;
+}
+
+.food_item_con h4 {
+    color: #CC9900;
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    margin-top: 100px;
+}
+
+.food_item_con .food_img {
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.food_item_con p {
+    color: #5D5D5D;
+    margin-bottom: 50px;
+}
+
+.food_dis {
+    margin-top: 70px;
+}
+
+/* food-item paat end*/
+
+/*about part start*/
+.about {
+    background-image: url(../img/pata.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.about_box {
+    height: 550px;
+    width: 550px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.60);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.60);
+}
+
+.about_con h4 {
+    margin-top: 90px;
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    color: #fff;
+}
+
+.about_con p {
+    color: #9E9C9C;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 15px;
+    padding: 0 50px;
+    margin-bottom: 60px;
+}
+
+/*about part start*/
+
+/*order list part start*/
+.order {
+    background-image: url(../img/menu-img1.png);
+    position: relative;
+}
+
+.order_main {
+    margin: 100px 0px;
+    /*    border: 1px solid green;*/
+    /*    height: 780px;*/
+    width: 540px;
+}
+
+.order_con1 {
+    position: relative;
+}
+
+.order_con1 h4 {
+    text-align: center;
+    color: #CC9900;
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive;
+
+}
+
+.order_con1 img {
+    margin-left: 28%;
+    margin-top: 20px;
+}
+
+.order_con1 h5 {
+    margin-left: 20px;
+    color: #CC9900;
+    font-size: 21px;
+    font-family: 'Yeseva One', cursive;
+}
+
+.order_con1 span {
+    margin-left: 370px;
+    color: #CC9900;
+    font-size: 21px;
+    font-family: 'Yeseva One', cursive;
+}
+
+.order_con1 h5::after {
+    position: absolute;
+    top: 127px;
+    left: 22px;
+    content: "";
+    height: 1px;
+    width: 512px;
+    border: 1px solid #CC9900;
+}
+
+.order_con1 p {
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #ADB0B0;
+    margin-bottom: 50px;
+}
+
+
+.order_con2 {
+    position: relative;
+}
+
+.order_con2 h3 {
+    text-align: center;
+    text-align: center;
+    color: #CC9900;
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive;
+}
+
+.order_con2 img {
+    margin-left: 28%;
+    margin-top: 20px;
+}
+
+.order_con2 h4 {
+    margin-left: 20px;
+    margin-left: 20px;
+    color: #CC9900;
+    font-size: 21px;
+    font-family: 'Yeseva One', cursive;
+}
+
+.order_con2 span {
+    margin-left: 269;
+    color: #CC9900;
+    font-size: 21px;
+    font-family: 'Yeseva One', cursive;
+    margin-left: 284px;
+}
+
+.order_con2 h4::after {
+    position: absolute;
+    top: 37px;
+    left: 22px;
+    content: "";
+    height: 0.5px;
+    width: 512px;
+    border: 0.50px solid #CC9900;
+}
+
+.order_con2 p {
+    margin-left: 0px;
+    margin-top: 20px;
+    color: #ADB0B0;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.order_con22 {
+    position: relative;
+}
+
+.order_con22 button {
+    margin-left: 477px;
+    width: 60px;
+    height: 22px;
+    line-height: 5px;
+    font-size: 14px;
+    background-color: #D4B662;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.order_box {
+    height: 90px;
+    width: 538px;
+    border: 1px solid #CC9900;
+    margin-bottom: 30px;
+}
+
+.order_con22 h4::after {
+    position: absolute;
+    top: 69px;
+    left: 13px;
+    content: "";
+    height: 0.5px;
+    width: 512px;
+    border: 0.50px solid #CC9900;
+}
+
+.order_con22 span {
+    color: #CC9900;
+    font-size: 21px;
+    font-family: 'Yeseva One', cursive;
+    margin-left: 317px;
+}
+
+.order_con22 h4 {
+    margin-left: 15px;
+    margin-left: 15px;
+    color: #CC9900;
+    font-size: 21px;
+    font-family: 'Yeseva One', cursive;
+    margin-top: 10px;
+}
+
+.order_con22 p {
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #ADB0B0;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+/*order list part end*/
+
+/*food-gallery part start*/
+.food_gly {
+    background-image: url(../img/food-gly.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.food_overly {
+    height: 560px;
+    width: 770px;
+    background-color: rgba(0, 0, 0, 0.65);
+    margin: 100px 0;
+
+
+}
+
+.overly_con {
+    text-align: center;
+}
+
+.overly_con h4 {
+    margin-top: 80px;
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+
+}
+
+.koma {
+    margin-right: 715px;
+}
+
+.overly_con p {
+    color: white;
+    line-height: 40px;
+    padding: 0 70px;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.overly_con h6 {
+    color: white;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 50px;
+
+}
+
+/*food-gallery part end*/
+
+
+/*form part start*/
+
+.form_part_main{
+    background-image: url(../img/form-bg-img.jpg);
+}
+.form_img{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+
+}
+.form_img img1{
+    margin-left: 30px;
+}
+.form_con{
+    text-align: center;
+    margin: 100px 0;
+}
+.form4{
+    text-align: center;
+}
+input{
+    margin: 30px;
+    text-align: center;
+}
+/*form part end*/
